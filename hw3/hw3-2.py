@@ -16,4 +16,3 @@ while True:
     client.send(b.to_bytes(4, 'little'))
     client.close()
 
-    

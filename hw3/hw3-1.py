@@ -11,4 +11,3 @@ sock.send(a.encode())
 a = sock.recv(1024)       #정수로 받음
 print(int.from_bytes(a, 'little'))     #엔디언 변환 출력
 sock.close()
-
