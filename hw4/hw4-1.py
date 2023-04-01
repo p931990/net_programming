@@ -1,4 +1,4 @@
-#TCP계산기
+#TCP계산기 클라이언트
 from socket import *
 
 s = socket(AF_INET, SOCK_STREAM)

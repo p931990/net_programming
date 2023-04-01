@@ -1,6 +1,7 @@
+#TCP 계산기 서버
 from socket import *
 
-#계산기의 조건 함수 추가
+#계산기의 조건 함수 정의
 def calculator(a,b,k):
     a = int(a)
     b = int(b)
